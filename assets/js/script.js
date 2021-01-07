@@ -309,7 +309,7 @@ var saveTasks = function() {
   localStorage.setItem("tasks", JSON.stringify(tasks));
   console.log("tasks saved");
 };
-å
+
 var loadTasks = function() {
   var savedTasks = localStorage.getItem("tasks");
   // if there are no tasks, set tasks to an empty array and return out of the function
